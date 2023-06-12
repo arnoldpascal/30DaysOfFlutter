@@ -20,17 +20,24 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       themeMode: ThemeMode.light,
-// <<<<<<< Day4
+// <<<<<<< Day8
+//       debugShowCheckedModeBanner: false,
 //       theme: ThemeData(
 //           primarySwatch: Colors.deepPurple,
 //           fontFamily: GoogleFonts.lato().fontFamily),
 // =======
-//       theme: ThemeData(primarySwatch: Colors.deepPurple),
+// // <<<<<<< Day4
+// //       theme: ThemeData(
+// //           primarySwatch: Colors.deepPurple,
+// //           fontFamily: GoogleFonts.lato().fontFamily),
+// // =======
+// //       theme: ThemeData(primarySwatch: Colors.deepPurple),
+// // >>>>>>> Day2
 // >>>>>>> Day2
       darkTheme: ThemeData(
         brightness: Brightness.dark,
       ),
-      initialRoute: "/login",
+      initialRoute: MyRoutes.homeRoute,
       routes: {
         "/": (context) => LoginPage(),
         MyRoutes.homeRoute: (context) => HomePage(),
