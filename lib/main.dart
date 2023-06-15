@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_catalog/pages/home_page.dart';
 import 'package:flutter_catalog/pages/login_page.dart';
+// <<<<<<< Day11
+import 'package:flutter_catalog/utils/routes.dart';
+import 'package:flutter_catalog/widgets/themes.dart';
+// import 'package:google_fonts/google_fonts.dart';
+// =======
 // <<<<<<< Day9
 // import 'package:flutter_catalog/utils/routes.dart';
 // import 'package:flutter_catalog/widgets/themes.dart';
@@ -15,6 +20,7 @@ import 'package:flutter_catalog/pages/login_page.dart';
 // // // =======
 // // // >>>>>>> Day2
 // // >>>>>>> Day2
+// >>>>>>> Day2
 // >>>>>>> Day2
 
 void main() {
