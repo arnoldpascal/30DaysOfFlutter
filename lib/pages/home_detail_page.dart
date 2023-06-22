@@ -10,6 +10,7 @@ class HomeDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       appBar: AppBar(backgroundColor: Colors.transparent),
       backgroundColor: context.canvasColor,
       bottomNavigationBar: Container(
@@ -23,7 +24,7 @@ class HomeDetailPage extends StatelessWidget {
               onPressed: () {},
               style: ButtonStyle(
                   backgroundColor:
-                      MaterialStateProperty.all(context.theme.buttonColor),
+                      MaterialStatePropertyAll<Color>(Colors.deepPurple),
                   shape: MaterialStateProperty.all(StadiumBorder())),
               child: "Add to cart".text.make(),
             ).wh(120, 50)
@@ -32,7 +33,7 @@ class HomeDetailPage extends StatelessWidget {
       ),
       body: SafeArea(
         bottom: false,
-        child: Column(
+        child: ListView(
           children: [
             Hero(
               tag: Key(catalog.id.toString()),
@@ -54,7 +55,7 @@ class HomeDetailPage extends StatelessWidget {
                         .make(),
                     catalog.desc.text.textStyle(context.captionStyle).xl.make(),
                     10.heightBox,
-                    "Dolor sea takimata ipsum sea eirmod aliquyam est. Eos ipsum voluptua eirmod elitr, no dolor dolor amet eirmod dolor labore dolores magna. Amet vero vero vero kasd, dolore sea sed sit invidunt nonumy est sit clita. Diam aliquyam amet tempor diam no aliquyam invidunt. Elitr lorem eirmod dolore clita. Rebum."
+                    "Apple Inc. is an American multinational technology company headquartered in Cupertino, California. Apple is the world's largest technology company by revenue, with US 394.3 billion in 2022 revenue. As of June 2022, Apple is the fourth-largest personal computer vendor by unit sales and the second-largest mobile phone manufacturer in the world."
                         .text
                         .textStyle(context.captionStyle)
                         .make()
