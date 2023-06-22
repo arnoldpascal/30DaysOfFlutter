@@ -10,6 +10,8 @@ class CatalogModel {
           "https://media.mobex.in/media/catalog/product/cache/0e8fa5907f13de785507bb9c529c3575/a/p/apple_iphone_12_pro_pacific_blue_256_gb_1.jpg",
     )
   ];
+
+  static getByPosition(int index) {}
 }
 
 class Item {
