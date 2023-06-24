@@ -8,6 +8,7 @@ class MyTheme {
       fontFamily: GoogleFonts.poppins().fontFamily,
       cardColor: Colors.white,
       canvasColor: creamColor,
+      focusColor: purpleColor,
       appBarTheme: AppBarTheme(
         color: Colors.white,
         elevation: 0.0,
@@ -36,6 +37,7 @@ class MyTheme {
   static Color darkCreamColor = Vx.gray900;
   static Color darkBluishColor = Color(0xff403b58);
   static Color lightBluishColor = Vx.indigo500;
+  static Color purpleColor = Vx.purple700;
 }
 
 
