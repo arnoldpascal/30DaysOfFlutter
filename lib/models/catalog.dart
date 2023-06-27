@@ -1,4 +1,10 @@
 class CatalogModel {
+  static final catModel = CatalogModel._internal();
+
+  CatalogModel._internal();
+
+  factory CatalogModel() => catModel;
+
   static List<Item> items = [
     Item(
       id: 1,
@@ -56,4 +62,4 @@ class Item {
 }
 
 
-// 6:28:47
+// 7:06:16
