@@ -35,6 +35,3 @@ class AddToCart extends StatelessWidget {
     );
   }
 }
-
-
-// 7:39:30
