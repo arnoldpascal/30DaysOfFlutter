@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
               color: Colors.white,
             ),
           ).badge(
-              color: Vx.red500,
+              color: Colors.white,
               size: 22,
               count: _cart.items.length,
               textStyle: TextStyle(color: Colors.black)),
@@ -76,3 +76,5 @@ class _HomePageState extends State<HomePage> {
         ));
   }
 }
+
+// 8:23:55

@@ -65,6 +65,3 @@ class HomeDetailPage extends StatelessWidget {
     );
   }
 }
-
-
-// 8:06:18
